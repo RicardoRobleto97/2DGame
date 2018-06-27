@@ -1,47 +1,8 @@
 Name: Nicholas Luce
 
 Course: CPSC 4160 - 2D Game Design
-
 Clemson Email Address: nluce@g.clemson.edu
-
-Project no: 6 - FINAL
-
-Project due date: 5/2/2018
 	
-REQUIREMENTS: 
-	1 - Game Meets Conclusion
-		- This was done in two ways. If the player dies, then a game over screen shows.
-		- If the player shoots all of the enemies, a win screen shows. Both options provide a way back to the menu.
-	
-	2 - Music and Sound
-		- I used sounds from the repo to make shooting and explosion effects.
-		- I found a song online that has a space techno vibe to play in the background.
-
-	3 - Restart Option
-		- If the player dies or shoots all the enemies, the player will have the option to return back to the menu.
-		- Once at the menu, the player can select play again, or the player can quit.
-
-	4 - God Mode
-		- If the user so desires, there is an option to play in God Mode from the start menu.
-		- While in God Mode, the player's collision detection is turned off.
-		- However, you can still blast away all of the baddies to get to the win screen.
-
-	5 - Video
-		- A 20 second video is provided to show the new menu and restart option.
-
-	6 - Crash Rarely - Leak Free
-		- I don't ever see my game crash, but I am assuming that once I get up in front of everyone to present
-			- it will start crashing...
-		- On the topic of memory leaks: I ran mine against the restart example from the repo and get the same
-			- amount of reachable bytes and lost bytes at the end of the execution. I assume this is acceptable.
-
-	8 - Pizzazz
-		- Since my game is pretty difficult, I chose to implement a menu where you can see the controls,
-		- choose between normal and god mode, and restart the game. This way, players do not have to struggle
-		- trying to stay alive and read the controls at the same time. Also, this allows an interface to build
-		- upon after the semester is over.
-
---
 Credits/Sources:
 	Galaga Sprites:
 		- from Nick Turner - Original Art done by NAMCO and MIDWAY
