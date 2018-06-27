@@ -1,0 +1,133 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Project 3 - Nicholas Luce</title>
+<author>Nicholas Luce</author>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>nluce</username>
+
+<view>
+  <width>1024</width>
+  <height>600</height>
+</view>
+
+<world>
+  <width>1024</width>
+  <height>600</height>
+</world>
+
+<menu>
+	<width>1024</width>
+	<height>600</height>
+	<noOfOptions>3</noOfOptions>
+	<loc x="0" y="0"/>
+	<optionLoc x="400" y="100"/>
+	<color r="0" g="0" b="0" a="255"/>
+	<backColor r="0" g="0" b="0" a="255"/>
+	<option0>Play</option0>
+	<option1>God Mode</option1>
+	<option2>Controls</option2>
+	<spaces>70</spaces>
+</menu>
+
+<clickOn>
+	<file>assets/clickOn.png</file>
+	<startLoc x="340" y ="170"/>
+	<speedX>0</speedX>
+	<speedY>0</speedY>
+	<transparency>true</transparency>
+</clickOn>
+
+<clickOff>
+	<file>assets/clickOff.png</file>
+	<startLoc x="340" y ="170"/>
+	<speedX>0</speedX>
+	<speedY>0</speedY>
+	<transparency>true</transparency>
+</clickOff>
+
+<back>
+  <file>assets/bg.jpg</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</back>
+
+<stars>
+  <file>assets/stars.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</stars>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>18</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<hud>
+	<x>312</x>
+	<y>250</y>
+	<w>300</w>
+	<h>150</h>
+</hud>
+
+<Ship>
+  <file>assets/ship.png</file>
+	<bullet>Rocket</bullet>
+	<count>1</count>
+	<offset>50</offset>
+  <startLoc x="512" y="525"/>
+  <frames>2</frames>
+  <imageWidth>34</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>0</frameInterval>
+  <speedX>400</speedX>
+  <speedY>400</speedY>
+  <transparency>false</transparency>
+	<chunk>
+		<size>16</size>
+		<distance>50</distance>
+	</chunk>
+</Ship>
+
+<Rocket>
+	<file>assets/rocket.png</file>
+	<interval>300</interval>
+	<max>3</max>
+	<distance>600</distance>
+	<minSpeed>-400</minSpeed>
+	<startLoc x="300" y="300"/>
+	<speedX>0</speedX>
+	<speedY>-400</speedY>
+	<transparency>true</transparency>
+</Rocket>
+
+<Catcher>
+  <file>assets/catcher.png</file>
+	<count>50</count>
+	<seekDistance>200</seekDistance>
+	<offset>100</offset>
+  <startLoc x="512" y="50"/>
+  <frames>2</frames>
+  <imageWidth>38</imageWidth>
+  <imageHeight>36</imageHeight>
+  <frameInterval>500</frameInterval>
+  <speedX>150</speedX>
+  <speedY>150</speedY>
+  <transparency>false</transparency>
+	<chunk>
+		<size>16</size>
+		<distance>50</distance>
+	</chunk>
+</Catcher>
+
+</GameData>
